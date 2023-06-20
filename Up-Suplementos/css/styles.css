@@ -1,0 +1,23 @@
+header, .navbar {
+    background-color: #f58013;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.nav-item a {
+    margin-right: 10px;
+}
+
+.nav-item a:hover {
+    color: #ffff;
+}
+
+.carousel-inner p {
+    text-shadow: #1452f2 1px 3px 20px;
+}
+
+.carousel-inner h5 {
+    text-shadow: #1452f2 1px 1px 20px;
+}
