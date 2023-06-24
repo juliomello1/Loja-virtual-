@@ -86,12 +86,14 @@ background-color: #a2aecc;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin: 5px 0 2px 0;
+    text-align: center;
 }
 
 #nosso-time p {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     color: #f58013;
+    text-align: center;
 }
 
 #time-imgs {
@@ -159,4 +161,35 @@ background-color: #a2aecc;
 
 .card-body a:hover {
     color: #ffff;
+}
+
+/*Footer*/
+
+#rodape {
+    background-color: #1452f2;
+    padding-top: 20px;
+}
+
+#rodape p {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    color: #FFFF;
+}
+
+#redes-sociais {
+    display: flex;
+    align-items: last baseline;
+}
+
+#under-footer {
+    background-color: #f58013;
+    width: 100%;
+    height: 40px;
+}
+
+#under-footer h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 8px;    
 }
