@@ -63,5 +63,34 @@ background-color: #6189ee;
 }
 
 
+/*Section Nosso Time*/
 
+#nosso-time {
+    padding-top: 20px;
+}
 
+#nosso-time h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+#nosso-time h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 5px 0 2px 0;
+}
+
+#nosso-time p {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #f58013;
+}
+
+#time-imgs {
+    padding-top: 20px;
+}
+
+#nosso-time img {
+    border-radius: 50%;
+}
