@@ -1,11 +1,11 @@
 body {
-    background-color: #f5f5f5;
+    background-color: #ffff;
 }
 
 /*Barra de navegação*/
 
 header, .navbar {
-    background-color: #f58013;
+    background-color: #eca96b;
 }
 
 .navbar-brand {
@@ -23,15 +23,21 @@ header, .navbar {
 /*Carousel*/
 
 .carousel-inner p {
-    text-shadow: #1452f2 1px 3px 20px;
+    text-shadow: #0000 1px 3px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #f58013;
+    background-color: #ffff;
 }
 
 .carousel-inner h5 {
     text-shadow: #1452f2 1px 1px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;    
 }
 
 #carrosel {
-background-color: #6189ee;
+background-color: #a2aecc;
 }
 
 /*Section quem somos*/
@@ -67,6 +73,7 @@ background-color: #6189ee;
 
 #nosso-time {
     padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 #nosso-time h3 {
@@ -93,4 +100,63 @@ background-color: #6189ee;
 
 #nosso-time img {
     border-radius: 50%;
+}
+
+
+/*Section Nossos Produtos*/
+
+#nossos-produtos {
+    background-color: #a2aecc;
+}
+
+#nossos-produtos h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#produtos {
+    padding: 20px 0;
+}
+
+#produtos-2 {
+    padding: 20px 0;
+}
+
+#nossos-produtos img {
+    height: 275px;
+    width: 275px;
+}
+
+#nossos-produtos h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+#nossos-produtos h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nossos-produtos p {
+    color: #1452f2;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: #f58013;
+}
+
+.btn:hover {
+    background-color: #f58013;
+}
+
+.card-body a:hover {
+    color: #ffff;
 }
