@@ -1,3 +1,9 @@
+body {
+    background-color: #f5f5f5;
+}
+
+/*Barra de navegação*/
+
 header, .navbar {
     background-color: #f58013;
 }
@@ -14,6 +20,8 @@ header, .navbar {
     color: #ffff;
 }
 
+/*Carousel*/
+
 .carousel-inner p {
     text-shadow: #1452f2 1px 3px 20px;
 }
@@ -21,3 +29,39 @@ header, .navbar {
 .carousel-inner h5 {
     text-shadow: #1452f2 1px 1px 20px;
 }
+
+#carrosel {
+background-color: #6189ee;
+}
+
+/*Section quem somos*/
+
+#quem-somos {
+    background-color: #eca96b;
+    padding-top: 20px;
+
+}
+
+#quem-somos h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;    
+}
+
+#quem-somos p {
+    font-family: 'Poppins', sans-serif;
+    text-indent: -10%;
+    font-size: large;
+    font-weight: bold;    
+}
+
+#quem-somos .about {
+    margin: 30px 0;    
+}
+
+#logo-abenutri {
+    margin: 20px 0 30px 0;
+}
+
+
+
+
